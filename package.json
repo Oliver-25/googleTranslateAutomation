@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "qa": "npx cypress run --env configFile=qa --browser chrome --headed",
+    "prod": "npx cypress run --env configFile=prod --browser chrome --headless"
+  },
+  "dependencies": {
+    "cypress": "^11.0.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
